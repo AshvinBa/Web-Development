@@ -1,0 +1,22 @@
+*{
+    background-color: antiquewhite;
+}
+#he{
+    color: white;
+    background-color: darkseagreen;
+    font-weight: lighter;
+}
+#wo
+{
+    color: white;
+    background-color: #c58940;
+    font-size: 50pt;
+    font-weight: lighter;
+}
+#font
+{
+    color: blue;
+    font-weight:lighter;
+    font-size: 50px;
+    font-family: sans-serif; 
+}

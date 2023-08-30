@@ -1,0 +1,48 @@
+*{
+    background-color:cornflowerblue;
+}
+.red-text
+{
+    color: red;
+}
+.Green-text
+{
+    color: green;
+}
+.Blue-text
+{
+    color: blue;
+}
+
+h1
+{
+    color: red;
+}
+h2
+{
+    color: green;
+}
+h3
+{
+    color: blue;
+}
+#r
+{
+    color: red;
+}
+#g
+{
+    color: green;
+}
+#b
+{
+    color: blue;
+}
+p[draggable="false"]
+{
+    color: red;
+}
+p[draggable="true"]
+{
+    background-color: aqua;
+}

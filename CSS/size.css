@@ -1,0 +1,30 @@
+#pixel
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#point
+{
+    /* font-size: lighter bolder; */
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+#em
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+#rem
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal bold;
+    font-size: 1rem;
+}
+footer
+{
+    font-size: 12pt;
+}
+html
+{
+    font-size: xx-large;
+}
