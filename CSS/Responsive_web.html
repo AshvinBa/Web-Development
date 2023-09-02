@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        .grid-container
+        {
+            background-color: green;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px 200px 200px;
+            gap: 30px;
+            flex: 2;
+        }
+        .first
+        {
+            grid-column: span 2;
+            flex: 1;
+        }
+        .card
+        {
+            background-color: lightgreen;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="first card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+
+</body>
+</html>
