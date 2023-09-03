@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            background-color: aqua;
+        }
+        .box
+        {
+            width: 300px;
+            background-color: red;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: widthAnimate;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 10;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes widthAnimate
+        {
+            from
+            {
+                width: 300px;
+            }
+            to
+            {
+                width: 1350px;
+            }
+        }
+        .im
+        {
+            width: 300px;
+            background-color: red;
+            color: white;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: widthAnimate;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 10;
+            animation-direction: alternate-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is me</div>
+    </div>
+    <br>
+    <hr>
+    <br><br><br>
+    <div class="cont">
+        <img class="im" src="../CSS/cat1.jpg" alt="">
+    </div>
+
+</body>
+</html>
