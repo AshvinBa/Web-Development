@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: aqua;
+      }
+    }
+    @media (min-width: 482px) and (max-width: 600px)
+    {
+      body{
+        background-color: rgb(47, 170, 129);
+      }
+    }
+    @media (min-width: 602px) and (max-width: 800px)
+    {
+      body{
+        background-color: rgb(25, 97, 73);
+      }
+    }
+    @media (min-width: 805px) and (max-width: 990px)
+    {
+      body{
+        background-color: rgb(9, 57, 41);
+      }
+    }
+    @media (min-width: 1000px) and (max-width: 1200px)
+    {
+      body{
+        background-color: rgb(2, 17, 12);
+      }
+    }
+    h1
+    {
+      color: white;
+      font-size: 70px;
+      text-align: center;
+    }
+    @media (min-width: 419px) and (max-width: 580px)
+    {
+      h1{
+        text-align: left;
+        color: black;        
+      }
+    }
+    @media (min-width: 600px) and (max-width: 850px)
+    {
+      h1
+      {
+        text-align: right;
+        color: red;
+      }
+    }
+    @media (min-width: 1051px) and (max-width: 1251px)
+    {
+      h1
+      {
+        text-align: center;
+        color: rgb(7, 153, 7);
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Middle</h1>
+</body>
+
+</html>
