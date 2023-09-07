@@ -8,13 +8,19 @@
   <style>
     .container {
       color: white;
+      height: 500px;
+      width: 1000px;
       border: 5px solid gold;
       display: inline-flex;
-      flex-direction: column;
+      align-items: baseline;
+      justify-content: center;
+      flex-wrap: wrap;
     }
 
     .container > * {
       flex-basis: 100px;
+      height: 10vh;
+      width: 100px;
     }
 
     .red {

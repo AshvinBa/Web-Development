@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex size</title>
+    <style>
+        .cont
+        {
+            border: 2px solid black;
+            display: flex;
+            gap: 10px;
+            color: aliceblue;
+        }
+        .cont>p
+        {
+            height: 200px;
+        }
+
+        .red
+        {
+            flex: 1;
+            background-color: red;
+        }
+        .blue
+        {
+            flex: 2;
+            background-color: blue;
+        }
+        .green
+        {
+            flex: 3;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <p class="red">Red</p>
+        <p class="blue">Blue</p>
+        <p class="green">Green</p>
+    </div>
+</body>
+</html>
