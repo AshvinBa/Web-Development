@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Placement</title>
+    <style>
+        .container
+        {
+            height: 100vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1.5fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .item
+        {
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .one
+        {
+            background-color: #00B9FF;
+            grid-area: 1/1/1/3;
+        }
+        .two
+        {   
+            background-color: #039893;
+            grid-area: 2/1/3/3;
+        }
+        .three
+        {
+            background-color: #E5833180;
+            /*
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+           */          
+            grid-area: 1/3/-1/-1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item one">🤠</div>
+        <div class="item two">👨‍🚀</div>
+        <div class="item three">📖</div>
+    </div>
+    
+</body>
+</html>

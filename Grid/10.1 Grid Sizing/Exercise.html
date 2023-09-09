@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-columns: auto 400px minmax(200px,500px);
+            grid-template-rows: 1fr 1fr 2fr;
+            
+            gap: 5px;
+        }
+        .container>p
+        {
+            margin-top: 5px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>width expand to till space</p>
+        <p>400px width</p>
+        <p>min 200px and max 400px</p>
+        <p>width expand to till space</p>
+        <p>400px width</p>
+        <p>min 200px and max 400px</p>
+        <p>width expand to till space</p>
+        <p>400px width</p>
+        <p>min 200px and max 400px</p>
+        <p></p>
+    </div>
+</body>
+</html>
