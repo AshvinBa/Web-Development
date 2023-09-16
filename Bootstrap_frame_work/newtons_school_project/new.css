@@ -1,0 +1,44 @@
+.img
+{
+    margin-top: -5px;
+    height: 25px;
+    margin-right: 30px;
+}
+.bi
+{
+    color: rgb(63, 63, 63);
+    margin-left: 15px;
+}
+
+.nav-item
+{
+    margin-top: -5px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.nav-link
+{
+    display: flex;
+    margin-right: 20px;
+}
+.right
+{
+    margin-top: 10px;
+    display: inline-flex;
+    list-style: none;
+}
+.right>button
+{
+    border: 0;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    background-color: rgb(244, 102, 55);
+    margin-left: 20px;
+}
+.py-2
+{
+}
