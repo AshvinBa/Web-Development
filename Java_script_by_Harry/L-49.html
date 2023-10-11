@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String in javaScript</h1>    
+    <div id="content"> The cource of javaScript is developed by Harry.</div>
+    <h2>This topic is totally based on javaScript</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, dignissimos sunt. Possimus, blanditiis accusantium! Quos pariatur ratione optio iste quisquam libero amet? Aperiam laudantium labore culpa quos quod! Soluta veniam eaque architecto autem amet voluptas, esse adipisci non deleniti corrupti nulla, quasi perferendis laboriosam obcaecati dolores error maxime aliquid assumenda!
+    </p>
+    <script>
+        var str = "My name is: ";
+        var name = "Ashvin ";
+        var fname = "Sudhir ";
+        var Lname = "Bari.";
+        var temp = `${str} ${name} and my father name is ${fname} and my sirname is ${Lname}`;
+        console.log(str+name+fname+Lname);
+        console.log(temp);
+        var nam= name.length;
+        console.log(`Length of name is: ${nam}`);
+        console.log("Hello world \n Ashvin \t and \b");
+        
+        document.getElementById('content').innerHTML='<h1> This is an Heading </h1>'
+        
+    </script>
+</body>
+</html>
