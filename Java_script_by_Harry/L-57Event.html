@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event</title>
+</head>
+
+<style>
+    #btn
+    {
+        padding: 10px 14px;
+        color: whitesmoke;
+        background-color: red;
+        border-radius: 8px;
+        box-shadow: 5px 5px; 
+    }
+
+</style>
+
+<body>
+    <div class="con">
+    <h1 id="h1">This is the Paragraph.</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut minima similique, rerum beatae tempora necessitatibus ex saepe, voluptates repellat, blanditiis officiis maxime quisquam? Atque, hic. Veniam soluta culpa asperiores voluptatem optio quasi, perferendis non at, ratione rem aliquam unde saepe assumenda consequatur eveniet cumque recusandae dolore expedita iure, consequuntur dicta delectus. Sunt dicta vel incidunt rerum rem architecto, eligendi inventore exercitationem natus? Veritatis ipsum blanditiis temporibus autem, repellendus possimus animi debitis dolores repudiandae officia fuga reprehenderit ad inventore optio dolorem omnis voluptates provident? Excepturi voluptatibus atque quidem non, est itaque consequuntur id illo totam eos earum quam harum voluptas cum dolor architecto dolore! Incidunt dolores, cum labore necessitatibus explicabo libero nostrum cupiditate. Doloribus dolor aperiam laudantium sint reprehenderit modi, et voluptatum commodi deleniti quidem minus hic rerum iste totam quis! Voluptate doloribus iusto quam deleniti vel mollitia eveniet quasi nobis assumenda quisquam deserunt, qui reiciendis. Exercitationem, vero debitis totam minima incidunt facilis earum dignissimos accusamus dolor deserunt veritatis consequuntur nostrum cupiditate aut vitae maxime dolores unde consequatur ex! Ut rerum assumenda in autem harum repudiandae perspiciatis ratione, nemo eaque earum provident nesciunt. Non temporibus molestiae nam ullam unde in eum! Sequi ratione maxime aliquid eveniet. Voluptatem at eligendi magnam?</p>
+    </div>
+    <button id="btn" onclick="Myfunc()">show/hide</button>
+    <input type="text" id="txt">
+    <h1>Time is: <span id="time"></span>
+    </h1>
+
+    <script>
+        
+        /*
+        function displayTime()
+        {
+            time=new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML=time;
+        }
+        setInterval(displayTime,1000);
+        */
+
+        /*
+        function display1()
+        {
+            console.log("HI BRO");
+        }
+        inter=setInterval(display1,2000);
+        clearInterval(inter);
+        */
+
+        /*
+        function display1()
+        {
+            let h=document.getElementById('h1');
+            h.innerHTML="Hello brother.";
+
+        }
+        function Myfunc(){
+            setTimeout(display1,2000);
+        }
+        */
+
+        /*
+        let para=document.getElementById('btn')
+
+        function Myfunc()
+        {
+            let itstime=setTimeout(chan,2000);
+        }
+        function chan()
+        {
+        para.addEventListener('click',function run(){
+            let hidi=document.getElementById('h1');
+            hidi.innerHTML="Hellow sir how are You. ";
+        })
+        }
+        */
+
+
+        /*
+        let timeout;
+
+        function Myfunc()
+        {
+            timeout=setTimeout(alertfunc,3000);
+        }
+
+        function alertfunc()
+        {
+            let name = prompt("Please! Enter Your name: ");
+            alert("Good Morning "+name + " sir.");
+        }
+        */
+
+        /*
+        let b=document.getElementById('btn');
+        b.addEventListener('click',function run(){
+            setTimeout(function(){alert("Hello sir")},2000);
+        });
+        */
+
+        /*
+        let btn=document.getElementById('btn'); 
+        btn.addEventListener('click',function run()
+        {
+        let x=document.getElementById('txt');
+        setTimeout(function(){x.value="2 second"},2000);
+        setTimeout(function(){x.value="4 second"},4000);
+        setTimeout(function(){x.value="6 second"},6000);
+        setTimeout(function(){x.value="8 second"},8000);
+        setTimeout(function(){x.value="10 second"},10000);
+        setTimeout(function(){x.value="12 second"},12000);
+        });*/
+        
+        /*
+        let para=document.getElementById('btn');
+        para.addEventListener('mouseup',function run(){
+            alert("Mouse in ");
+        });*/
+
+        /*
+        let para=document.getElementById('para');
+        para.addEventListener('mousemove',function run(){
+            console.log("Mouse in ");
+        });
+        */
+        
+        /*
+        let para=document.getElementById('btn');
+        para.addEventListener('submit',function run(){
+            console.log("Mouse in");
+        });*/
+
+
+        /*
+        let para = document.getElementById('para');
+        para.addEventListener('mouseover',function run(){
+            alert("mouse in the para");
+        });
+        para.addEventListener('mouseout',function run(){
+            alert("mouse is not on the para");
+        });
+        */
+
+        /*
+        function toggleHide()
+        {
+            let btn=document.getElementById('btn');
+            let para=document.getElementsByTagName('p')[0];
+
+            if(para.style.display !='none')
+            {
+                para.style.display ='none';
+            }
+            else
+            {
+                para.style.display ='block'
+            }
+
+        }
+        */
+
+
+
+    </script>
+</body>
+</html>
