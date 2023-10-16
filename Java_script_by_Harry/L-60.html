@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        #but{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Paragraph.</h1>    
+
+    <button id="but" type="button" onclick="pass()" class="btn btn-primary">Primary</button>
+
+</body>
+<script>
+
+     
+    let obj1={
+        greeting: "Good Morning",
+
+        names:["Harry","Ashvin","Mehul","Jas","Yash","Bari"],
+        speak(){
+            this.names.forEach((student)=>{
+                console.log(this.greeting + " Hi! How are you "+ student);
+            }); 
+        }
+    }
+    obj1.speak();
+
+    /*
+    let obj1={        
+        names:["Harry","Ashvin","Mehul","Jas","Yash","Bari"],
+        speak(){
+            this.names.forEach((student)=>{
+                console.log(" Hi! How are you "+ student);
+            }); 
+        }
+    }
+    obj1.speak();
+    */
+
+
+    /*
+    function pass()
+    {
+        console.log("GM");
+    }
+    pass();
+
+    let greet = ()=>
+    {
+        console.log("Good morning");
+    }
+    greet();
+
+    let sum2= (a,b)=>{
+        return a+b;
+    };
+
+    let half = a => a/2;
+
+    let mul = m => m*m;
+    */
+
+    //let sum2 = (a,b) => a+b;
+</script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+</html>

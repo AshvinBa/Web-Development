@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Dates</title>
+    <style>
+        .container
+        {
+            margin-top: 200px;
+            box-shadow: 5px 5px black;
+            text-align: center;
+            margin-left: 200px;
+            height: 107px;
+            width: 900px;
+            color: rgb(141, 56, 34);
+            background: linear-gradient(300deg, #ff4c68,#00bfff,#ff4c68,#ef8172);
+            /*background-color: lightgreen;
+            */
+            animation: gradient-animation 20s ease infinite;
+            padding-top: 1px;
+            border-radius: 15px;
+            border: 10px solid greenyellow;
+        }
+    </style>
+</head>
+<body>
+    
+   <div align="center" class="container">
+    <h1>CURRENT TIME IS: <span id="sp"> </span></h1>
+   </div> 
+
+   <script>
+
+    setInterval(update,1000);
+    function update()
+    {
+        sp.innerHTML = new Date();
+    }
+
+
+    /*
+    console.log("This is data and time: ");
+    let now = new Date();
+    console.log(now);
+
+    function display()
+    {
+        time = new Date();
+        document.getElementById('sp').innerHTML=time;
+    }
+    setInterval(display,1000);
+    */
+
+    /*
+    function display()
+    {
+        // let newDate = new Date(year,month,date,hours,minute,seconds,milliseconds);
+        let newtime= new Date(2023,9,16,11,45,10,34);
+        time=new Date();
+        document.getElementById('sp').innerHTML=newtime;
+    }
+    setInterval(display,1000);
+    display();
+    */
+
+    /*
+    let newDate=new Date(2023,4,6,9,3,2);
+    let yr1=newDate.getFullYear();
+    let yr2=newDate.getHours(); 
+    let yr3=newDate.getMinutes();
+    let yr4=newDate.getMonth();
+    let yr7=newDate.getDate();
+    console.log(newDate);
+    console.log("This year is: ",document.getElementById('sp').innerHTML=yr1);
+    console.log("This Hour is: ",document.getElementById('sp').innerHTML=yr2);
+    console.log("This Minute is: ",document.getElementById('sp').innerHTML=yr3);
+    console.log("This Month is: ",document.getElementById('sp').innerHTML=yr4);
+    console.log("This year is: ",document.getElementById('sp').innerHTML=yr7);
+    */
+
+
+
+
+
+   </script>
+</body>
+</html>

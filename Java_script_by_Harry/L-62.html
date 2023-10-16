@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <h1>working with JSON in javaScript.</h1>
+
+    <script>
+        let jsonObj = {
+            name : "Ash",
+            Id : "44",
+            friend : "Raka",
+            food : "matki"
+        }
+        console.log(jsonObj);  // They show as OBJECTS   
+        
+        let myJson = JSON.stringify(jsonObj);  //convert into string
+        console.log(myJson);  // They show as String 
+
+        con_into_obj = JSON.parse(myJson); //convert into objects
+        console.log(con_into_obj);
+    </script>
+</body>
+</html>
