@@ -1,0 +1,30 @@
+<!-- 1. Check A connection of PHP and MYSQL -->
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "abcd";
+<!-- // Create connection -->
+$conn = new mysqli($servername, $username, $password, $dbname) or die(mysql_error());
+$
+
+<!-- 2. INSERT the data in SQL by using PHP -->
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "abcd";
+
+<!-- // Create connection -->
+
+$conn = new mysqli($servername, $username, $password, $dbname) or die(mysql_error());
+$sql = "INSERT INTO student (roll_no, name) VALUES (10, 'Doe')";
+if ($conn->query($sql) === TRUE) {
+ echo "New record created successfully";
+} 
+else 
+{
+ echo "Error: " . $sql . "<br>" . $conn->error;
+}
+$conn->close();
+?>

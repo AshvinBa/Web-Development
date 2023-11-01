@@ -1,0 +1,191 @@
+<!-- <html>
+    <Body>
+    <p>Click the button to get the greeting</p>
+    <button onclick="myfunction1()">Greeting</button>
+    <p>Click the button to get day</p>
+    <button onclick="myfunction2()">Day</button>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        function myfunction1()
+        {
+            var greeting;
+            if(new Date().getHours()<18)
+            greeting="Goodday";
+            else
+            greeting="Goodevening";
+            document.getElementById("demo1").innerHTML=greeting;
+        }
+        function myfunction2()
+        {
+            var day;
+            var d=new Date();
+            switch(d.getDay())
+            {
+                case 0:day="sunday";
+                break;
+
+                case 1:day="monday";
+                break;
+                
+                case 2:day="tuesday";
+                break;
+                
+                case 3:day="wednessday";
+                break;
+                
+                case 4:day="thursday";
+                break;
+                
+                case 5:day="friday";
+                break;
+                
+                case 6:day="saturday";
+                break;
+            }
+            document.getElementById("demo2").innerHTML=day;
+        }
+    </script> 
+</Body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if_else_and_switch</title>
+</head>
+<body>
+    <h1>check If else statment and swich statment</h1>
+    <button type="button" onclick="myfunc1()">Greeting</button>
+    <p id="para"></p>
+    <button type="button" onclick="myFunc2()">Click</button>
+    <p id="para2"></p>
+    <script>
+
+        function myfunc1()
+        {
+            var greeting;
+            if(new Date().getHours()<18)
+            greeting="Good day";
+            else 
+            greeting="Good Evening.";
+            document.getElementById("para").innerHTML=greeting;
+        }
+
+        function myFunc2()
+        {
+            var date;
+            var d=new Date();
+
+            switch(d.getDay())
+            {
+                case 0:
+                {
+                    date="Sunday";
+                }
+                break;
+
+                case 1:
+                {
+                    date="Monday";
+                }
+                break;
+
+                case 2:
+                {
+                    date="Thusday";
+                }
+                break;
+
+                case 3:
+                {
+                    date="Wednesday";
+                }
+                break;
+
+                case 4:
+                {
+                    date="Thursday";
+                }
+                break;
+
+                case 5:
+                {
+                    date="Frieday";
+                }
+                break;
+
+                case 0:
+                {
+                    date="Saturday";
+                }
+                break;
+            }
+            document.getElementById("para2").innerHTML=date;
+
+        }
+
+        /*var ch=prompt("Enter your age: ");
+        if(ch>=18)
+        {
+            document.getElementById("para").innerHTML="You are adult";
+        }
+        else
+        {
+            document.getElementById("para").innerHTML="You are Not adult";
+        }*/
+
+
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

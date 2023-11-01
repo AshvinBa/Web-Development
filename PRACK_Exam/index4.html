@@ -1,0 +1,70 @@
+<!-- <html>
+<Script Language="JavaScript">
+
+    function rectangleArea(length, height)
+    {
+    var area;
+    area = length * height;
+    return area;
+    }
+    
+    function displayArea()
+    {
+        var l, h, rectArea;
+        l = 52.05;
+        h = 46.55;
+        rectArea = rectangleArea(l, h);
+        document.write("The area of the is ", rectArea);
+    }
+    displayArea();
+
+</Script>
+<body>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Area of Rectangle: </h1>
+    <h1><p id="para1"></p></h1>
+    <button type="button" onclick="myfunc1()">click</button>
+
+    <script>
+
+        function areaof(hei,len)
+        {
+            var ans=hei*len;
+            return ans;
+        }
+
+        function myfunc1()
+        {
+            var hei=prompt("Enter the value of height: ");
+            var len=prompt("Enter the value of lenght: ");
+            var rec=areaof(hei,len);
+            document.getElementById("para1").innerHTML=rec;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
